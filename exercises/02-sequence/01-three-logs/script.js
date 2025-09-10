@@ -2,7 +2,8 @@
 // Write three console.log() statements that show the steps of making a sandwich
 
 // TODO: Add your first console.log() statement here (starting the process)
-
+console.log("Get bread")
 // TODO: Add your second console.log() statement here (middle step)
-
+console.log("Make a sandwich")
 // TODO: Add your third console.log() statement here (finishing the process)
+console.log("Eat sandwich")
