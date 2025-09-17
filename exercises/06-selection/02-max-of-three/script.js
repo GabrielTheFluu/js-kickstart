@@ -4,8 +4,17 @@
 const prompt = require('prompt-sync')();
 
 // TODO: Ask the user for three numbers
-// TODO: Convert each input to a number using Number()
+const firstNumber = Number(prompt("Give a number "));
+const secondNumber = Number(prompt("Give a second number "));
+const thirdNumber = Number(prompt("Give a third number"));
 // TODO: Use selection statements to determine which number is largest
+let max = firstNumber;
+if (secondNumber > max){
+    max = secondNumber;
+}
+if (thirdNumber > max) {
+    max = thirdNumber;
+}
 // TODO: Display the maximum number
 
-console.log("Replace this with your solution!");
+console.log(max);
