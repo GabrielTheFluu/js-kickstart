@@ -22,6 +22,9 @@ console.log("I need some words to create your story!\n");
 let noun = prompt("Enter a noun: ");
 let verb = prompt("Enter a verb: ");
 let adjective = prompt("Enter an adjective: ");
+let place = prompt("Enter a location/place: ");
+let number = prompt("Enter a number: ");
+
 
 // Create and display your story
 console.log("\n=== Your Story ===");
