@@ -19,22 +19,24 @@ console.log("=== Mad Libs Story Generator ===");
 console.log("I need some words to create your story!\n");
 
 // Get words from the user (add more prompts!)
-let noun = prompt("Enter a noun: ");
+let occupation = prompt("Enter a occupation: ");
 let verb = prompt("Enter a verb: ");
-let adjective = prompt("Enter an adjective: ");
+let adjective1 = prompt("Enter an adjective for the worker: ");
+let adjective2 = prompt("Enter an adjective for the client: ");
 let place = prompt("Enter a location/place: ");
 let number = prompt("Enter a number: ");
-
+let help = prompt("Enter what the client needs help with: ")
 
 // Create and display your story
 console.log("\n=== Your Story ===");
-console.log("The " + adjective + " " + noun + " likes to " + verb + ".");
-console.log("\nThanks for playing Mad Libs!");
+console.log(`The ${adjective1} ${occupation} likes to ${verb} at his favorite ${place} at ${number} `);
+console.log(`The ${adjective1} ${occupation}s client is very ${adjective2} and needs help with his ${help} `)
+console.log("\nThanks for playing Mad Libs!"); 
 
 // YOUR TURN: 
 // 1. Add more word prompts (place, number, food, animal, etc.)
+
 // 2. Create a longer, more interesting story
 // 3. Make your output formatting look nice
 // 4. Test with different inputs to make sure it works!
-
 // Remember: This is YOUR project - make it creative and fun!
