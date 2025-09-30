@@ -26,11 +26,16 @@ let adjective2 = prompt("Enter an adjective for the client: ");
 let place = prompt("Enter a location/place: ");
 let number = prompt("Enter a number: ");
 let help = prompt("Enter what the client needs help with: ")
-
+let food = prompt("Enter the workers favorite type of food: ");
+let animal = prompt("Enter a type of animal: ");
+let name = prompt("Enter a name: ");
 // Create and display your story
 console.log("\n=== Your Story ===");
 console.log(`The ${adjective1} ${occupation} likes to ${verb} at his favorite ${place} at ${number} `);
 console.log(`The ${adjective1} ${occupation}s client is very ${adjective2} and needs help with his ${help} `)
+console.log(`After a long day of work, the ${adjective1} ${occupation} enjoys eating ${food}.`);
+console.log(`One day, a ${animal} appeared and changed everything!`);
+console.log(`The ${adjective1} ${occupation} named ${name} lived happily ever after!`);
 console.log("\nThanks for playing Mad Libs!"); 
 
 // YOUR TURN: 
